@@ -134,7 +134,7 @@ public class GameController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         MoveBy move = Camera.main.gameObject.AddComponent<MoveBy>();
-        move.offset = new Vector3(3.55f, 0, 0);
+        move.offset = new Vector3(3.05f, 0, 0);
         move.time = 1;
         move.Begin();
         yield return new WaitForSeconds(1.5f);
